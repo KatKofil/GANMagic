@@ -41,6 +41,15 @@ Réseaux de neurone de type DCGAN pour générer des cards Magic [https://magic.
  
  Mais temps insuffisant car pour un resultat non optimal 11h de calcul pour 50 epoch avec calcul sur le GPU, un apprentissage de au moin 100 à 150 epoch serais plus indiquées.
  
- Pour reduir la loss du generator revoir à modifier la taille du filtre et du kernel_size.
+ Pour reduire la loss du generator revoir à modifier la taille du filtre et du kernel_size.
  
+ ## Usage
+
+ ```python GANMagic --mode gen```
+
+ Les images créé arriverons dans le dossier final_cards
+
+ ```python GANMagic --mode train```
+
+ Pour entrainé les réseaux mais au préalable lancé le script scriptDB/dlDB.py /!\ Opération longue et couteuse en réseaux/mémoire (~32000 images)
  
