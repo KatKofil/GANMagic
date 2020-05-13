@@ -2,12 +2,6 @@
 
 Master 1
 
-Nom: Leroy-Lechat
-
-Prenom: Adrien
-
-n° étudiant: 16702868
-
 ## Description projet
 
 Réseaux de neurone de type DCGAN pour générer des cards Magic [https://magic.wizards.com/fr](https://magic.wizards.com/fr)
